@@ -8,7 +8,7 @@ const PORT = 3000;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/CRMdb', {
+mongoose.connect('mongodb://localhost:37017/CRMdb', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
